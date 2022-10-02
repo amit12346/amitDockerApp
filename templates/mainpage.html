@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Flask Tutorial</title>
+      <link rel= "stylesheet" type= "text/css" href="{{ url_for('static',filename='mainpage.css') }}">
+      <script src="{{ url_for('static', filename='mainpage.js') }}"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+  </head>
+  <body>
+   <div   class="leftbox" id="leftbox" onmouseover="mouseenterleftbox()" onmouseleave="mymousleaveleftbox()" onclick="window.location.href='{{ url_for( 'updateleftbox') }}';">
+        Vote For Dogs!
+    </div>
+     <div class="middlebox" id="middlebox" onmouseover="mouseentermiddlebox()" onmouseleave="mymousleavemiddlebox()">
+        Vote For Cats!
+    </div>
+       <div class="rightbox" id="rightbox" onmouseover="mouseenterrightbox()" onmouseleave="mymousleaverightbox()">
+         Vote For Donkeys!
+    </div>
+  </body>
+</html>

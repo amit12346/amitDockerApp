@@ -1,0 +1,42 @@
+h1{
+    font-size: 80px;
+}
+
+body {
+  font-family: "Trirong", serif;
+}
+
+
+.leftbox{
+    background: #555555;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border-style: solid;
+    padding: 100px;
+}
+
+
+.middlebox{
+    background: #177199;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border-style: solid;
+    padding: 100px;
+}
+
+.rightbox{
+    background: #A5D6D9;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border-style: solid;
+    padding: 100px;
+}
